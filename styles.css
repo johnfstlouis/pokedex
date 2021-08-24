@@ -1,0 +1,27 @@
+.page-link {
+	cursor: pointer;
+}
+
+#spinnerContainer {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 99;
+	display: block;
+}
+
+.spinnerBackground {
+	width: 100%;
+	height: 100%;
+	background-color:#000000;
+	opacity: 15%;
+}
+
+.spinner-border {
+	position: absolute;
+	left:50%;
+	top:50%;
+	opacity: 100%;
+}
